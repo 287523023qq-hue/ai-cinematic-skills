@@ -1,9 +1,14 @@
 # 🎬 AI Agent Cinematic & Character Skills (SKILL.md)
 
+[![GitHub Repo stars](https://img.shields.io/github/stars/287523023qq-hue/ai-cinematic-skills?style=social)](https://github.com/287523023qq-hue/ai-cinematic-skills)
+[![GitHub forks](https://img.shields.io/github/forks/287523023qq-hue/ai-cinematic-skills?style=social)](https://github.com/287523023qq-hue/ai-cinematic-skills)
 [![Agensi Marketplace](https://img.shields.io/badge/Agensi-Marketplace%20Verified-blue.svg)](https://www.agensi.io/skills/cinematic-shot-prompting)
 [![Security Scanned](https://img.shields.io/badge/Security-Scanned%20Pass-brightgreen.svg)](https://www.agensi.io/dashboard)
 [![Compatible With](https://img.shields.io/badge/Agents-Claude%20Code%20%7C%20Cursor%20%7C%20Codex-orange.svg)](https://www.agensi.io)
 [![Standard](https://img.shields.io/badge/Standard-SKILL.md%20v1.0-purple.svg)](https://www.agensi.io)
+
+> ⭐️ **If this toolkit saves you AI generation credits, please Star this repository on GitHub!**  
+> It helps fellow indie filmmakers and developers discover verified, security-scanned AI Agent skills.
 
 > Production-ready AI Agent Skills that turn **Claude Code, Cursor, Codex, and Kiro** into an elite Hollywood cinematographer and character design pipeline for Runway Gen-3, Kling AI, Luma Dream Machine, Midjourney, and Nano Banana.
 
@@ -80,6 +85,15 @@ Once purchased on [Agensi](https://www.agensi.io/skills/cinematic-shot-prompting
 [Parallax Mechanics]: High foreground velocity differential with foreground steam particles, medium velocity for neon signage, zero parallax for distant megastructure skyline.
 [Terminal Landing]: Settles at extreme wide shot, establishing full urban canyon scale with vertical anamorphic flare response.
 ```
+
+---
+
+## ⭐️ Support & Connect
+
+- **Star this Project**: [Give a Star on GitHub](https://github.com/287523023qq-hue/ai-cinematic-skills) to support independent AI film tool development!
+- **Creator X (Twitter)**: Follow [@feifeifei12138_](https://x.com/feifeifei12138_) for weekly prompt engineering workflows and motion contract recipes.
+- **Live Showcase Website**: [https://287523023qq-hue.github.io/ai-cinematic-skills/](https://287523023qq-hue.github.io/ai-cinematic-skills/)
+- **Agensi Creators Telegram**: [Join Community Group](https://t.me/+njX2bY5GZJZIYmU0)
 
 ---
 

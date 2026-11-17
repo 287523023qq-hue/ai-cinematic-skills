@@ -16,6 +16,21 @@
 
 ## ⚡ The Skills Suite
 
+### 0. 🎮 Game Universe Studio (Gaoyaguo Edition) ⚡ NEW FLAGSHIP
+**Turn loose ideas into playable WebGL/Canvas games, consistent 3D turnarounds, cinematic cutscenes, and high-CTR Bento cards.**
+
+- **Price**: ~~\$29.90~~ **\$1.00** (Exclusive Launch Deal)
+- **Live Playable Showcase**: [https://gaoyaguo.eu.cc](https://gaoyaguo.eu.cc)
+- **Get it on Agensi**: [https://www.agensi.io/skills/game-universe-studio](https://www.agensi.io/skills/game-universe-studio)
+- **GitHub Repository**: [287523023qq-hue/game-universe-studio](https://github.com/287523023qq-hue/game-universe-studio)
+- **Core Engine**: The **4-Tier Production Matrix**:
+  1. `Character Consistency Genesis`: 4-angle orthographic sheets and action sprite loops without facial morphing.
+  2. `Cinematic Cutscene Compiler`: 6-slot camera motion contracts (Anchor, Mechanism, Path/Velocity, Subject Lock, Environment, Ending Anchor).
+  3. `High-CTR Bento Showcase`: Retro-futuristic badge system and responsive card grids.
+  4. `Instant-Play Web Matrix`: Zero-dependency Web Audio synthesizers and lightweight Canvas2D/WebGL engines.
+
+---
+
 ### 1. 🎥 Cinematic Shot Prompting
 **Eliminate background hallucinations and camera jitter in AI video generators.**
 
@@ -63,6 +78,7 @@ These skills adhere to the open `SKILL.md` standard.
 ### With Agensi CLI:
 ```bash
 # Install directly into your active agent workspace
+agensi install game-universe-studio
 agensi install cinematic-shot-prompting
 agensi install nano-banana-video-visuals
 agensi install character-creation-studio

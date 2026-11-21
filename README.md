@@ -1,117 +1,56 @@
-# 🎬 AI Agent Cinematic & Character Skills (SKILL.md)
+# 🎬 AI Game & Visual Asset Studio Suite (`SKILL.md`)
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/287523023qq-hue/ai-cinematic-skills?style=social)](https://github.com/287523023qq-hue/ai-cinematic-skills)
-[![GitHub forks](https://img.shields.io/github/forks/287523023qq-hue/ai-cinematic-skills?style=social)](https://github.com/287523023qq-hue/ai-cinematic-skills)
-[![Agensi Marketplace](https://img.shields.io/badge/Agensi-Marketplace%20Verified-blue.svg)](https://www.agensi.io/skills/cinematic-shot-prompting)
-[![Security Scanned](https://img.shields.io/badge/Security-Scanned%20Pass-brightgreen.svg)](https://www.agensi.io/dashboard)
-[![Compatible With](https://img.shields.io/badge/Agents-Claude%20Code%20%7C%20Cursor%20%7C%20Codex-orange.svg)](https://www.agensi.io)
-[![Standard](https://img.shields.io/badge/Standard-SKILL.md%20v1.0-purple.svg)](https://www.agensi.io)
+[![Agensi Verified Creator](https://img.shields.io/badge/Agensi-Verified%20Creator%20%E2%9C%94-2563eb?style=for-the-badge)](https://www.agensi.io/r/CREATOR980D20B?to=/creators/creator-980&utm_source=github_repo)
+[![Official 4-in-1 Bundle](https://img.shields.io/badge/4--in--1%20Bundle-%249.99%20(Save%2041%25)-10b981?style=for-the-badge)](https://www.agensi.io/r/CREATOR980D20B?to=/bundles/ai-game-visual-asset-studio-suite&utm_source=github_repo)
+[![Upstream Merged](https://img.shields.io/badge/claude--skills-v2.14.15%20Merged-6366f1?style=for-the-badge)](https://github.com/alirezarezvani/claude-skills/releases/tag/v2.14.15)
+[![Live Showcase](https://img.shields.io/badge/Showcase-Live%20Demo-8b5cf6?style=for-the-badge)](https://287523023qq-hue.github.io/ai-cinematic-skills/)
 
-> ⭐️ **If this toolkit saves you AI generation credits, please Star this repository on GitHub!**  
-> It helps fellow indie filmmakers and developers discover verified, security-scanned AI Agent skills.
+> ⭐️ **If this suite saves you GPU credits or prompt debugging time, please Star this repository on GitHub!**
 
-> Production-ready AI Agent Skills that turn **Claude Code, Cursor, Codex, and Kiro** into an elite Hollywood cinematographer and character design pipeline for Runway Gen-3, Kling AI, Luma Dream Machine, Midjourney, and Nano Banana.
+> Production-ready AI Agent Skills (`SKILL.md`) for **Claude Code, Cursor, Codex, and Antigravity**. Built by an upstream contributor to `alirezarezvani/claude-skills` (`#1132` & `#1162` merged in `v2.14.15`).
 
 ---
 
-## ⚡ The Skills Suite
+## 🎁 Official 4-in-1 Flagship Bundle — `$9.99` (Save 41%)
 
-### 0. 🎮 Game Universe Studio (Gaoyaguo Edition) ⚡ NEW FLAGSHIP
-**Turn loose ideas into playable WebGL/Canvas games, consistent 3D turnarounds, cinematic cutscenes, and high-CTR Bento cards.**
-
-- **Price**: ~~\$29.90~~ **\$1.00** (Exclusive Launch Deal)
-- **Live Playable Showcase**: [https://gaoyaguo.eu.cc](https://gaoyaguo.eu.cc)
-- **Get it on Agensi**: [https://www.agensi.io/skills/game-universe-studio](https://www.agensi.io/skills/game-universe-studio)
-- **GitHub Repository**: [287523023qq-hue/game-universe-studio](https://github.com/287523023qq-hue/game-universe-studio)
-- **Core Engine**: The **4-Tier Production Matrix**:
-  1. `Character Consistency Genesis`: 4-angle orthographic sheets and action sprite loops without facial morphing.
-  2. `Cinematic Cutscene Compiler`: 6-slot camera motion contracts (Anchor, Mechanism, Path/Velocity, Subject Lock, Environment, Ending Anchor).
-  3. `High-CTR Bento Showcase`: Retro-futuristic badge system and responsive card grids.
-  4. `Instant-Play Web Matrix`: Zero-dependency Web Audio synthesizers and lightweight Canvas2D/WebGL engines.
+> **[Unlock `AI Game & Visual Asset Studio Suite` on Agensi →](https://www.agensi.io/r/CREATOR980D20B?to=/bundles/ai-game-visual-asset-studio-suite&utm_source=github_repo)**  
+> Includes all **4 verified production skills** below (`$16.97` individual value → **`$9.99` lifetime bundle**, save `$6.98`).  
+> *New to Agensi? Signing up via the link above includes **$0.99 free platform credit**.*
 
 ---
 
-### 1. 🎥 Cinematic Shot Prompting
-**Eliminate background hallucinations and camera jitter in AI video generators.**
+## ⚡ The 4-Skill Production Suite
 
-- **Price**: ~~\$19.90~~ **\$3.99** (Limited Launch Offer)
-- **Get it on Agensi**: [https://www.agensi.io/skills/cinematic-shot-prompting](https://www.agensi.io/skills/cinematic-shot-prompting)
-- **Core Engine**: The **7-Slot Motion Contract**:
-  1. `Anchor Axis`: 3D world origin coordinate lock.
-  2. `Optical Mechanism`: Physical steadycam / crane / orbit vs zoom separation.
-  3. `Velocity Curve`: Mechanical constant speed vs ease-in-ease-out.
-  4. `Subject Lock`: Fixed bounding box tracking vs decoupled gaze.
-  5. `Parallax Reference`: Foreground occlusion rate to prevent background melting.
-  6. `Atmospheric Response`: Dynamic volumetric haze and bounce lighting.
-  7. `Terminal Landing`: Exact framing settle coordinate.
-
----
-
-### 2. 🍌 Nano Banana Video Visuals
-**Turn raw scripts into viral visual assets and high-CTR hooks.**
-
-- **Price**: ~~\$19.90~~ **\$4.99** (Limited Launch Offer)
-- **Get it on Agensi**: [https://www.agensi.io/skills/nano-banana-video-visuals](https://www.agensi.io/skills/nano-banana-video-visuals)
-- **Features**:
-  - High-converting short-video cover generation matrix.
-  - First-frame 3-second retention hooks.
-  - Consistent narrative visual continuity packs.
-
----
-
-### 3. 👤 Character Creation Studio
+### 1. 👤 Character Creation Studio — 🔥 **`$5.00` (7-Day Deal, -28% off `$6.99`)**
 **100% consistent character turnarounds without retraining LoRAs every cut.**
+- **Get Deal on Agensi**: [Character Creation Studio (`$5.00`)](https://www.agensi.io/r/CREATOR980D20B?to=/skills/character-creation-studio&utm_source=github_repo)
+- **Core Capabilities**: 8-angle orthographic turnaround sheets, dynamic facial expression matrix, HEX color & silhouette lock anchors.
 
-- **Price**: ~~\$19.90~~ **\$6.99** (Limited Launch Offer)
-- **Get it on Agensi**: [https://www.agensi.io/skills/character-creation-studio](https://www.agensi.io/skills/character-creation-studio)
-- **Features**:
-  - 8-angle character turnaround sheets (Front, 3/4 Left, Profile, Back, etc.).
-  - Micro-expression emotion matrix.
-  - Geometric and HEX palette anchor locking.
+### 2. 🎮 Game Universe Studio — **`$1.00` (Starter Entry)**
+**Turn loose game ideas into deterministic manifests, browser prototypes, locked characters, and 3D cutscene hooks.**
+- **Get it on Agensi**: [Game Universe Studio (`$1.00`)](https://www.agensi.io/r/CREATOR980D20B?to=/skills/game-universe-studio&utm_source=github_repo)
+- **Upstream Open Source**: Merged into `alirezarezvani/claude-skills` ([v2.14.15](https://github.com/alirezarezvani/claude-skills/releases/tag/v2.14.15) via [#1161](https://github.com/alirezarezvani/claude-skills/pull/1161) / `#1162`)
 
----
+### 3. 🎥 Cinematic Shot Prompting — **`$3.99`**
+**Eliminate background hallucinations and camera jitter in Kling, Runway Gen-3, and Sora.**
+- **Get it on Agensi**: [Cinematic Shot Prompting (`$3.99`)](https://www.agensi.io/r/CREATOR980D20B?to=/skills/cinematic-shot-prompting&utm_source=github_repo)
+- **Upstream Open Source**: Merged into `alirezarezvani/claude-skills` ([PR #1132](https://github.com/alirezarezvani/claude-skills/pull/1132))
+- **Core Engine**: Formal 7-Slot Camera Motion Contract (`Anchor`, `Mechanism`, `Velocity`, `Subject Lock`, `Parallax`, `Atmosphere`, `Landing`).
 
-## 🚀 How to Install into Your Agent
-
-These skills adhere to the open `SKILL.md` standard.
-
-### With Agensi CLI:
-```bash
-# Install directly into your active agent workspace
-agensi install game-universe-studio
-agensi install cinematic-shot-prompting
-agensi install nano-banana-video-visuals
-agensi install character-creation-studio
-```
-
-### With Claude Code / Cursor:
-Once purchased on [Agensi](https://www.agensi.io/skills/cinematic-shot-prompting), download the verified skill bundle into your project `.claude/skills/` or `.cursor/rules/` directory.
+### 4. 🍌 Nano Banana Video Visuals — **`$4.99`**
+**Turn raw scripts into high-CTR video covers, 3-second retention hooks, and visual continuity packs.**
+- **Get it on Agensi**: [Nano Banana Video Visuals (`$4.99`)](https://www.agensi.io/r/CREATOR980D20B?to=/skills/nano-banana-video-visuals&utm_source=github_repo)
 
 ---
 
-## 🌟 Quick Example: Compiling a Shot
+## 🚀 Interactive Showcase & Creator Storefront
 
-**Natural Language Intent:**
-> "A cyberpunk ronin standing in neon rain. The camera pulls backward through flying steam, revealing the towering mega-city behind him."
-
-**Agent Output (Compiled 7-Slot Contract):**
-```markdown
-[Camera Instruction]: Reverse dolly tracking shot along central depth axis, constant velocity (0.6m/s), optical center locked at 35mm equivalent field of view.
-[Subject Anchor]: Cyberpunk ronin silhouette fixed at lower-third horizon, maintaining optical sharpness as steam layers drift across foreground plane.
-[Parallax Mechanics]: High foreground velocity differential with foreground steam particles, medium velocity for neon signage, zero parallax for distant megastructure skyline.
-[Terminal Landing]: Settles at extreme wide shot, establishing full urban canyon scale with vertical anamorphic flare response.
-```
-
----
-
-## ⭐️ Support & Connect
-
-- **Star this Project**: [Give a Star on GitHub](https://github.com/287523023qq-hue/ai-cinematic-skills) to support independent AI film tool development!
-- **Creator X (Twitter)**: Follow [@feifeifei12138_](https://x.com/feifeifei12138_) for weekly prompt engineering workflows and motion contract recipes.
-- **Live Showcase Website**: [https://287523023qq-hue.github.io/ai-cinematic-skills/](https://287523023qq-hue.github.io/ai-cinematic-skills/)
-- **Agensi Creators Telegram**: [Join Community Group](https://t.me/+njX2bY5GZJZIYmU0)
+- **Verified Agensi Storefront**: [agensi.io/creators/creator-980](https://www.agensi.io/r/CREATOR980D20B?to=/creators/creator-980&utm_source=github_repo)
+- **Live Showcase Website**: [287523023qq-hue.github.io/ai-cinematic-skills](https://287523023qq-hue.github.io/ai-cinematic-skills/)
+- **Creator X (Twitter)**: [@feifeifei12138_](https://x.com/feifeifei12138_)
+- **Agensi Creators Telegram**: [Join Community](https://t.me/+njX2bY5GZJZIYmU0)
 
 ---
 
 ## 📄 License
-Commercial License via [Agensi.io](https://www.agensi.io). All skills are security-scanned and verified.
+Commercial Skills via [Agensi.io](https://www.agensi.io/r/CREATOR980D20B?to=/creators/creator-980&utm_source=github_repo). All packages are security-scanned and verified.

@@ -67,13 +67,17 @@
 
     <!-- Hero CTA Buttons -->
     <div class="flex flex-wrap items-center justify-center gap-4 mb-6">
+      <a href="#quickcheck" class="px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm transition-all duration-200 shadow-lg shadow-emerald-500/20 flex items-center space-x-2">
+        <i data-lucide="scan-search" class="w-4 h-4"></i>
+        <span>Try Free Prompt Linter ($0)</span>
+      </a>
       <a href="https://www.agensi.io/r/CREATOR980D20B?to=/bundles/ai-game-visual-asset-studio-suite&utm_source=github_pages" target="_blank" class="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition-all duration-200 shadow-lg shadow-blue-500/25 flex items-center space-x-2">
         <i data-lucide="layers" class="w-4 h-4"></i>
         <span>Get All 4 Skills Bundle — $9.99 (Save 41%)</span>
       </a>
       <a href="https://www.agensi.io/r/CREATOR980D20B?to=/skills/game-universe-studio&utm_source=github_pages" target="_blank" class="px-6 py-3.5 rounded-xl bg-zinc-900 hover:bg-zinc-800 text-zinc-200 border border-zinc-700 font-semibold text-sm transition-all duration-200 flex items-center space-x-2">
         <i data-lucide="gamepad-2" class="w-4 h-4 text-emerald-400"></i>
-        <span>Start with Game Studio ($1.00)</span>
+        <span>Starter Skill ($1.00)</span>
       </a>
     </div>
     <p class="text-xs text-zinc-500 mb-10">
@@ -94,6 +98,76 @@
         <i data-lucide="shield-check" class="w-3.5 h-3.5 text-blue-400"></i>
         <span>Agensi Security Scan Pass</span>
       </span>
+    </div>
+  </section>
+
+  <!-- Interactive Browser Playground: Camera Prompt QuickCheck ($0 MIT) -->
+  <section id="quickcheck" class="max-w-6xl mx-auto px-6 pb-8">
+    <div class="rounded-2xl border border-emerald-500/35 bg-zinc-900/75 p-6 md:p-8 shadow-2xl">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-6 border-b border-zinc-800/80">
+        <div>
+          <div class="inline-flex items-center space-x-2 mb-2">
+            <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">FREE &amp; MIT OPEN SOURCE</span>
+            <span class="px-2.5 py-0.5 rounded-full text-[11px] font-mono bg-zinc-800 text-zinc-300 border border-zinc-700">Rules C01–C06 · Zero API Keys</span>
+          </div>
+          <h2 class="text-2xl md:text-3xl font-bold text-white">Camera Prompt QuickCheck — Live Pre-Flight Linter</h2>
+          <p class="text-xs md:text-sm text-zinc-400 mt-1">
+            Audit Runway Gen-4, Kling, Sora &amp; Veo prompts directly in your browser before spending generation credits. Identical deterministic logic to our CLI/Agent skill.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center gap-2.5 shrink-0">
+          <a href="https://github.com/287523023qq-hue/camera-prompt-quickcheck" target="_blank" class="px-4 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-100 border border-zinc-700 text-xs font-semibold flex items-center space-x-1.5 transition">
+            <i data-lucide="github" class="w-3.5 h-3.5"></i>
+            <span>Free Python CLI (MIT)</span>
+          </a>
+          <a href="https://www.agensi.io/r/CREATOR980D20B?to=/creators/creator-980&utm_source=github_pages_linter" target="_blank" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold flex items-center space-x-1.5 transition">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+            <span>Agensi Listing</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-6 pt-6">
+        <!-- Input + Presets -->
+        <div class="lg:col-span-6 space-y-3">
+          <div class="flex items-center justify-between">
+            <label for="qc-input" class="text-xs font-semibold uppercase tracking-wider text-zinc-400">Video Prompt to Audit</label>
+            <span class="text-[11px] font-mono text-zinc-500">EN &amp; 中文 supported</span>
+          </div>
+          <textarea id="qc-input" rows="4" class="w-full rounded-xl bg-zinc-950 border border-zinc-800 focus:border-emerald-500/70 focus:outline-none p-4 text-sm text-zinc-100 font-mono leading-relaxed" placeholder="Paste any Runway, Kling, Sora, or Veo shot prompt...">A cinematic dynamic shot of a car driving fast, zoom in, epic lighting, 4k.</textarea>
+          <div class="flex flex-wrap gap-2">
+            <button type="button" data-preset="broken" class="qc-preset px-3 py-1.5 rounded-lg bg-red-950/40 hover:bg-red-900/50 border border-red-800/50 text-[11px] font-mono text-red-300 transition">Preset: Broken Zoom (10/100)</button>
+            <button type="button" data-preset="collision" class="qc-preset px-3 py-1.5 rounded-lg bg-amber-950/40 hover:bg-amber-900/50 border border-amber-800/50 text-[11px] font-mono text-amber-300 transition">Preset: Dolly+Zoom Clash</button>
+            <button type="button" data-preset="pass" class="qc-preset px-3 py-1.5 rounded-lg bg-emerald-950/40 hover:bg-emerald-900/50 border border-emerald-800/50 text-[11px] font-mono text-emerald-300 transition">Preset: Fixed Dolly (100/100)</button>
+            <button type="button" data-preset="zh" class="qc-preset px-3 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-[11px] font-mono text-zinc-300 transition">预设: 中文推镜 (100/100)</button>
+          </div>
+          <div class="rounded-xl bg-zinc-950/80 border border-zinc-800/80 p-3 flex items-center justify-between text-[11px] font-mono text-zinc-400">
+            <span class="truncate">python3 scripts/lint_camera_prompt.py --json "..."</span>
+            <a href="https://www.agensi.io/r/CREATOR980D20B?to=/skills/cinematic-shot-prompting&utm_source=github_pages_linter" target="_blank" class="text-blue-400 hover:text-blue-300 shrink-0 ml-3 font-sans font-semibold">Auto-fix with 7-Slot Compiler ($3.99) &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Live Score & Findings -->
+        <div class="lg:col-span-6 flex flex-col justify-between rounded-xl bg-zinc-950 border border-zinc-800 p-5 space-y-4">
+          <div class="flex items-center justify-between border-b border-zinc-800/80 pb-3">
+            <div>
+              <div class="text-[11px] font-mono text-zinc-500 uppercase">Physics Pre-Flight Score</div>
+              <div class="flex items-baseline space-x-2 mt-0.5">
+                <span id="qc-score" class="text-3xl font-extrabold font-mono text-red-400">10/100</span>
+                <span id="qc-status" class="px-2 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-red-500/15 text-red-300 border border-red-500/30">HIGH_RISK</span>
+              </div>
+            </div>
+            <div id="qc-summary" class="text-right text-xs text-zinc-400 font-mono">5 defects flagged</div>
+          </div>
+
+          <div id="qc-findings" class="space-y-2.5 max-h-60 overflow-y-auto pr-1 text-xs"></div>
+
+          <div class="pt-2 border-t border-zinc-800/80 flex flex-wrap items-center justify-between gap-2 text-[11px]">
+            <span class="text-zinc-500">Want AI agents to write clean 100/100 shots automatically?</span>
+            <a href="https://www.agensi.io/r/CREATOR980D20B?to=/bundles/ai-game-visual-asset-studio-suite&utm_source=github_pages_linter" target="_blank" class="font-semibold text-blue-400 hover:text-blue-300">Unlock 4-in-1 Studio Suite ($9.99) &rarr;</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -300,13 +374,301 @@
       <a href="https://www.agensi.io/r/CREATOR980D20B?to=/creators/creator-980&utm_source=github_pages" target="_blank" class="hover:text-zinc-300 transition">Verified Storefront</a>
       <a href="https://www.agensi.io/r/CREATOR980D20B?to=/bundles/ai-game-visual-asset-studio-suite&utm_source=github_pages" target="_blank" class="hover:text-zinc-300 transition">$9.99 Bundle</a>
       <a href="https://github.com/287523023qq-hue/ai-cinematic-skills" target="_blank" class="hover:text-zinc-300 transition">GitHub Repo</a>
-      <a href="https://t.me/+njX2bY5GZJZIYmU0" target="_blank" class="hover:text-zinc-300 transition">Agensi Telegram</a>
+      <a href="https://t.me/+njX2bY5GZJZlYmU0" target="_blank" class="hover:text-zinc-300 transition">Agensi Telegram</a>
       <a href="https://x.com/feifeifei12138_" target="_blank" class="hover:text-zinc-300 transition">X (@feifeifei12138_)</a>
     </div>
   </footer>
 
   <script>
     lucide.createIcons();
+
+    (function () {
+      const PRIMARY_MECHANISM = [
+        /\bdolly(?:\s+(?:in|out|forward|back|left|right))?\b/i,
+        /\bpush(?:es|ing)?\s+in\b/i,
+        /\bpull(?:s|ing)?\s+(?:back|out|away)\b/i,
+        /\btruck(?:s|ing)?\s+(?:left|right|laterally)?\b/i,
+        /\btrack(?:s|ing)?\s+(?:alongside|behind|ahead|with|shot)?\b/i,
+        /\bpan(?:s|ning)?\s+(?:left|right|across)?\b/i,
+        /\btilt(?:s|ing)?\s+(?:up|down)?\b/i,
+        /\bpedestal\s+(?:up|down)\b/i,
+        /\bcrane\s+(?:up|down)\b/i,
+        /\borbit(?:s|ing)?\b/i,
+        /\barc\s+(?:around|left|right)\b/i,
+        /\brack\s+focus\b/i,
+        /\bstatic\s+(?:camera|shot|tripod|frame)\b/i,
+        /\blocked[- ]off\s+(?:camera|tripod|shot)\b/i,
+        /\bwhip\s+pan\b/i,
+        /推镜|拉镜|横移|摇镜|升降|环绕|固定机位|跟拍|甩镜/
+      ];
+      const PACE_CURVE = [
+        /\b(?:slow(?:ly)?|steady|steadily|smooth(?:ly)?|measured|gentle|gently|constant|gradual(?:ly)?|even(?:ly)?)\b/i,
+        /\b(?:decelerat(?:e|es|ing)|accelerat(?:e|es|ing)|ease(?:s)?\s+(?:in|out))\b/i,
+        /\b\d+(?:\.\d+)?\s*(?:m|meter|meters|ft|deg|degrees|%|s|sec|seconds)\b/i,
+        /缓慢|匀速|平稳|轻柔|减速|缓停/
+      ];
+      const FLUFF = [
+        /\bcinematic\b/ig,
+        /\bepic\b/ig,
+        /\bamazing\b/ig,
+        /\bstunning\b/ig,
+        /\bdynamic\b/ig,
+        /\bmovie[- ]?(?:like|quality|style)\b/ig,
+        /\bmasterpiece\b/ig,
+        /\bultra[- ]?realistic\b/ig,
+        /\b8k\b/ig,
+        /电影感|大片感|震撼|史诗级|高级感/g
+      ];
+      const ANCHOR = [
+        /\bkeep(?:ing)?\s+(?:the\s+)?(?:subject|character|face|eyes|product|horizon)\b/i,
+        /\bcentered\b/i,
+        /\block(?:ed)?\s+(?:horizon|focus|eye[- ]line|center|centerpiece)\b/i,
+        /\blevel\s+horizon\b/i,
+        /\bfrom\s+(?:wide|medium|close[- ]up|establishing|low[- ]angle|eye[- ]level|over[- ]the[- ]shoulder)\b/i,
+        /\bstart(?:s|ing)?\s+(?:on|at|with|from)\b/i,
+        /保持水平|视线锁定|主体居中|中景起幅|特写起幅|全景起幅/
+      ];
+      const SETTLE = [
+        /\bsettl(?:e|es|ing)\s+(?:into|on|to)\b/i,
+        /\bend(?:s|ing)?\s+(?:on|with|in|at)\b/i,
+        /\bcome(?:s)?\s+to\s+(?:a\s+)?rest\b/i,
+        /\bhold(?:s|ing)?\s+(?:steady|for)\b/i,
+        /\breveal(?:s|ing)?\b/i,
+        /\bterminat(?:e|es|ing)\b/i,
+        /\bland(?:s|ing)?\s+(?:on|at)\b/i,
+        /落幅|定格|停稳|揭示|收束/
+      ];
+
+      function matchAny(text, patterns) {
+        const hits = [];
+        for (const p of patterns) {
+          const flags = p.flags.includes("g") ? p.flags : p.flags + "g";
+          const rx = new RegExp(p.source, flags);
+          const m = text.match(rx);
+          if (m) hits.push(...m);
+        }
+        return hits;
+      }
+
+      function lintCameraPrompt(prompt) {
+        const cleaned = prompt.trim().replace(/\s+/g, " ");
+        if (!cleaned) {
+          return {
+            score: 0,
+            status: "FAIL",
+            findings: [{
+              code: "C00",
+              severity: "ERROR",
+              deduction: 100,
+              message: "Empty prompt supplied.",
+              fix: "Provide a concrete camera shot prompt describing start framing, movement, and subject lock."
+            }]
+          };
+        }
+
+        const findings = [];
+        let score = 100;
+
+        const mechHits = matchAny(cleaned, PRIMARY_MECHANISM);
+        if (!mechHits.length) {
+          findings.push({
+            code: "C01",
+            severity: "ERROR",
+            deduction: 30,
+            message: "No explicit physical camera mechanism found (e.g., dolly in, truck right, pan left, orbit, locked tripod).",
+            fix: "Start with an unambiguous mechanism token such as 'Slow dolly in' or 'Steady lateral truck left'."
+          });
+          score -= 30;
+        }
+
+        const hasZoom = /\bzoom(?:s|ing)?\s*(?:in|out)?\b|变焦/i.test(cleaned);
+        const hasDollyZoom = /\bdolly[- ]zoom\b|\bvertigo\b|希区柯克/i.test(cleaned);
+        if (hasZoom && !hasDollyZoom) {
+          const hasOpticalNote = /\boptical\s+zoom\b|\bfocal\s+length\b|\bstationary\s+tripod\b/i.test(cleaned);
+          if (!hasOpticalNote) {
+            findings.push({
+              code: "C02",
+              severity: "WARN",
+              deduction: 20,
+              message: "Raw 'zoom' without optical/focal clarification often triggers flat 2D digital scaling instead of parallax movement.",
+              fix: "Use 'dolly in / push in' for real 3D approach, or write 'smooth optical zoom on a locked tripod' if changing focal length only."
+            });
+            score -= 20;
+          }
+        }
+
+        const axisGroups = {
+          dolly_depth: /\bdolly\b|\bpush(?:es|ing)?\s+in\b|\bpull(?:s|ing)?\s+(?:back|out)\b|推镜|拉镜/i.test(cleaned),
+          pan_yaw: /\bpan(?:s|ning)?\b|摇镜/i.test(cleaned),
+          tilt_pitch: /\btilt(?:s|ing)?\b/i.test(cleaned),
+          orbit_arc: /\borbit(?:s|ing)?\b|\barc\b|环绕/i.test(cleaned),
+          truck_lateral: /\btruck(?:s|ing)?\b|横移/i.test(cleaned),
+          pedestal_elev: /\bpedestal\b|\bcrane\b|升降/i.test(cleaned)
+        };
+        const activeAxes = Object.keys(axisGroups).filter((k) => axisGroups[k]);
+        if (hasZoom && axisGroups.dolly_depth && !hasDollyZoom) {
+          findings.push({
+            code: "C03",
+            severity: "ERROR",
+            deduction: 25,
+            message: "Unlabeled Dolly + Zoom collision: mixing camera translation and zoom without 'dolly zoom (vertigo)' causes background rubber-banding.",
+            fix: "Remove 'zoom' if pushing the camera physically, or label the shot explicitly as a 'dolly-zoom vertigo effect with subject scale locked'."
+          });
+          score -= 25;
+        } else if (activeAxes.length >= 3) {
+          findings.push({
+            code: "C03",
+            severity: "WARN",
+            deduction: 20,
+            message: "Competing multi-axis movements detected (" + activeAxes.join(", ") + "). Single 5s AI clips frequently warp architecture with 3+ axes.",
+            fix: "Reduce to 1 primary camera mechanism + at most 1 subtle compensating axis, or split into Start/End keyframes."
+          });
+          score -= 20;
+        }
+
+        const fluffHits = matchAny(cleaned, FLUFF);
+        const paceHits = matchAny(cleaned, PACE_CURVE);
+        if (fluffHits.length && !paceHits.length) {
+          const uniq = Array.from(new Set(fluffHits)).sort().join(", ");
+          findings.push({
+            code: "C04",
+            severity: "WARN",
+            deduction: 15,
+            message: "Qualitative fluff (" + uniq + ") found without measurable speed/pacing constraints.",
+            fix: "Replace mood fluff with concrete motion speed and curve (e.g., 'at a steady measured pace, easing gently at the end')."
+          });
+          score -= 15;
+        } else if (!paceHits.length && mechHits.length && !/\bstatic\b|\blocked\b/i.test(cleaned)) {
+          findings.push({
+            code: "C04",
+            severity: "INFO",
+            deduction: 10,
+            message: "Camera speed curve is unspecified (generator defaults to erratic mid-clip acceleration).",
+            fix: "Add speed phrasing like 'slow, constant speed' or 'rapid whip transitioning to a hold'."
+          });
+          score -= 10;
+        }
+
+        if (!matchAny(cleaned, ANCHOR).length) {
+          findings.push({
+            code: "C05",
+            severity: "WARN",
+            deduction: 15,
+            message: "Missing start framing or subject/horizon lock constraint.",
+            fix: "State start shot size and lock target (e.g., 'starting from a medium wide shot, keeping horizon level and protagonist centered')."
+          });
+          score -= 15;
+        }
+
+        if (!matchAny(cleaned, SETTLE).length) {
+          findings.push({
+            code: "C06",
+            severity: "INFO",
+            deduction: 10,
+            message: "No explicit end-frame settle state specified.",
+            fix: "Append termination state (e.g., 'settling smoothly into an eye-level close-up and holding steady')."
+          });
+          score -= 10;
+        }
+
+        const bounded = Math.max(0, Math.min(100, score));
+        const status = bounded >= 85 ? "PASS" : (bounded >= 60 ? "WARN" : "HIGH_RISK");
+        return { score: bounded, status: status, findings: findings };
+      }
+
+      const PRESETS = {
+        broken: "A cinematic dynamic shot of a car driving fast, zoom in, epic lighting, 4k.",
+        collision: "Slow dolly in while zooming in, panning left and tilting up across a medieval plaza.",
+        pass: "Starting from a medium wide shot tracking alongside a fast-moving sports car, perform a slow steady dolly in toward the driver window at a measured pace, keeping horizon level and car framed center-left, easing gently to a tight close-up and holding steady.",
+        zh: "中景起幅保持水平并主体居中，缓慢匀速推镜靠近街头拉面师父，最后落幅定格在蒸汽腾起的特写镜头。"
+      };
+
+      const inputEl = document.getElementById("qc-input");
+      const scoreEl = document.getElementById("qc-score");
+      const statusEl = document.getElementById("qc-status");
+      const summaryEl = document.getElementById("qc-summary");
+      const findingsEl = document.getElementById("qc-findings");
+
+      function renderResult() {
+        const res = lintCameraPrompt(inputEl.value);
+        scoreEl.textContent = res.score + "/100";
+        statusEl.textContent = res.status;
+
+        if (res.status === "PASS") {
+          scoreEl.className = "text-3xl font-extrabold font-mono text-emerald-400";
+          statusEl.className = "px-2 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30";
+        } else if (res.status === "WARN") {
+          scoreEl.className = "text-3xl font-extrabold font-mono text-amber-400";
+          statusEl.className = "px-2 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30";
+        } else {
+          scoreEl.className = "text-3xl font-extrabold font-mono text-red-400";
+          statusEl.className = "px-2 py-0.5 rounded-md text-[11px] font-mono font-semibold bg-red-500/15 text-red-300 border border-red-500/30";
+        }
+
+        summaryEl.textContent = res.findings.length
+          ? res.findings.length + (res.findings.length === 1 ? " finding flagged" : " findings flagged")
+          : "All 6 rules clean";
+
+        findingsEl.replaceChildren();
+        if (!res.findings.length) {
+          const okCard = document.createElement("div");
+          okCard.className = "p-3.5 rounded-lg bg-emerald-950/30 border border-emerald-800/50 text-emerald-200";
+          okCard.textContent = "All 6 physical camera & framing checks (C01–C06) passed cleanly. Safe to spend generation credits.";
+          findingsEl.appendChild(okCard);
+          return;
+        }
+
+        for (const f of res.findings) {
+          const card = document.createElement("div");
+          const isErr = f.severity === "ERROR";
+          const isWarn = f.severity === "WARN";
+          card.className = "p-3 rounded-lg border " + (isErr
+            ? "bg-red-950/25 border-red-900/50"
+            : isWarn
+              ? "bg-amber-950/20 border-amber-900/40"
+              : "bg-zinc-900/70 border-zinc-800");
+
+          const head = document.createElement("div");
+          head.className = "flex items-center justify-between font-mono mb-1";
+
+          const badge = document.createElement("span");
+          badge.className = "font-semibold " + (isErr ? "text-red-300" : isWarn ? "text-amber-300" : "text-blue-300");
+          badge.textContent = f.code + " · " + f.severity;
+
+          const pen = document.createElement("span");
+          pen.className = "text-zinc-400";
+          pen.textContent = "-" + f.deduction + " pts";
+
+          head.appendChild(badge);
+          head.appendChild(pen);
+
+          const msg = document.createElement("p");
+          msg.className = "text-zinc-300 leading-relaxed";
+          msg.textContent = f.message;
+
+          const fix = document.createElement("p");
+          fix.className = "text-emerald-300/90 mt-1 text-[11px]";
+          fix.textContent = "Fix: " + f.fix;
+
+          card.appendChild(head);
+          card.appendChild(msg);
+          card.appendChild(fix);
+          findingsEl.appendChild(card);
+        }
+      }
+
+      inputEl.addEventListener("input", renderResult);
+      for (const btn of document.querySelectorAll(".qc-preset")) {
+        btn.addEventListener("click", function () {
+          const key = btn.getAttribute("data-preset");
+          if (PRESETS[key]) {
+            inputEl.value = PRESETS[key];
+            renderResult();
+          }
+        });
+      }
+      renderResult();
+    })();
   </script>
 </body>
 </html>

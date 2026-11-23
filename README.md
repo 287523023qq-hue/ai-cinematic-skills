@@ -14,6 +14,7 @@
 ## 🆓 Free Lead-Magnet Pre-Flight Linter (`$0` / MIT Open Source)
 
 > **[Try Interactive Browser Linter on GitHub Pages →](https://287523023qq-hue.github.io/ai-cinematic-skills/#quickcheck)**  
+> **Free on Agensi (Verified Listing)**: [Camera Prompt QuickCheck](https://www.agensi.io/r/CREATOR980D20B?to=/skills/camera-prompt-quickcheck&utm_source=github_repo)  
 > **GitHub Repository**: [287523023qq-hue/camera-prompt-quickcheck](https://github.com/287523023qq-hue/camera-prompt-quickcheck)  
 > Audits Runway Gen-4, Kling, Sora & Veo prompts against `C01`–`C06` physics rules using pure Python standard library (`--json` & Markdown output, zero API keys).
 
